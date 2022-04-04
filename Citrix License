@@ -1,0 +1,2 @@
+Via command line elevado acesse o programas files x386/Citrix/Licence/LS
+for /f "tokens=1,2" %i in ('udadmin -list ^| find /i "_ud"') do @udadmin -f %j -user %i -delete
